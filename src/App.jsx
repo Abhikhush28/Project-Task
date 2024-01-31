@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import Login from './components/Login'
 import SignUp from './components/SignUp'
 import Contact from './components/Contact'
+import DealOfDay from './components/DealOfDay'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
       {/* <Home/> */}
       {/* <Login/> */}
       {/* <SignUp/> */}
-      <Contact/>
+      {/* <Contact/> */}
+      <DealOfDay/>
     </div>
   )
 }
