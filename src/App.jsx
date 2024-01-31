@@ -4,6 +4,7 @@ import Home from './components/Home'
 import NavBar from './components/NavBar'
 import Login from './components/Login'
 import SignUp from './components/SignUp'
+import Contact from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +13,9 @@ function App() {
     <div className='w-full'>
     <NavBar/>
       {/* <Home/> */}
-      <Login/>
-      <SignUp/>
+      {/* <Login/> */}
+      {/* <SignUp/> */}
+      <Contact/>
     </div>
   )
 }
