@@ -12,6 +12,8 @@ import Cart from './components/Cart'
 import Header from './components/Header/Header'
 import BannerHome from './components/BannerHome/BannerHome';
 import Filter from './components/Filter/Filter';
+import Summary from './components/Summary/Summary';
+import CheckOut from './components/Checkout/CheckOut ';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,7 +30,9 @@ function App() {
       <Header/>
         {/* <Cart/> */}
         {/* <BannerHome/> */}
-      <Filter/>
+      {/* <Filter/> */}
+      {/* <Summary/> */}
+      <CheckOut/>
 
       
      
@@ -36,7 +40,7 @@ function App() {
   )
 }
 
-export default App
+export default App;
 
 
 /*

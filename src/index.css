@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.custom-radio-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  .radio-button-text {
+    border: 1px solid #FF9800;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:checked + .radio-button-text {
+    background-color: #FF9800;
+  }
