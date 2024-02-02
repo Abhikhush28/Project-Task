@@ -11,6 +11,7 @@ import DealOfDay from './components/DealOfDay'
 import Cart from './components/Cart'
 import Header from './components/Header/Header'
 import BannerHome from './components/BannerHome/BannerHome';
+import Filter from './components/Filter/Filter';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,7 +27,9 @@ function App() {
       
       <Header/>
         {/* <Cart/> */}
-        <BannerHome/>
+        {/* <BannerHome/> */}
+      <Filter/>
+
       
      
     </div>
